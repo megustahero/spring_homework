@@ -1,0 +1,21 @@
+
+spring:
+  profiles:
+    active: smart
+
+hr:
+  payraise:
+    default:
+      percent: 5
+    special:
+      default:
+        percent: 0
+      first:
+        percent: 2
+        limit: 30
+      second:
+        percent: 5
+        limit: 60
+      third:
+        percent: 10
+        limit: 120
